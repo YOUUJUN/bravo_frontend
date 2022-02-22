@@ -3,6 +3,12 @@ import Home from './Index.vue'
 
 import store from '../../store/index.js';
 
+import Element from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(Element);
+
+
 
 //eventBus
 let bus = new Vue;
